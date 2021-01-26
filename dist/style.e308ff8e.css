@@ -112,7 +112,7 @@ header .contact img {
 }
 
 .tabs {
-    padding-top: 20px;
+    padding: 20px 10px 0px 10px;
     display: flex;
 }
 
@@ -177,7 +177,7 @@ main {
 }
 
 .box h2 {
-    margin: 50px auto;
+    margin: 25px auto;
     text-align: center;
     font-size: 35px;
 }
@@ -185,7 +185,7 @@ main {
 .git-div {
     display: flex;
     justify-content: space-around;
-    margin: 40px auto;
+    margin: 20px auto;
 }
 
 .div-image {
@@ -199,7 +199,7 @@ main {
     bottom: 0;
     right: 0;
     left: 0;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,8));
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.8));
     z-index: 0;
 }
 
@@ -225,6 +225,11 @@ main {
 .git-live {
     background-image: linear-gradient(to top right, #00ca8e, rgb(47, 224, 255));
     color: black;
+}
+
+.technologies h4 {
+    display: block;
+    text-align: center;
 }
 
 .main-container {
