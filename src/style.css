@@ -257,6 +257,10 @@ main {
     text-align: center;
 }
 
+.lists {
+    display: flex;
+}
+
 .main-container {
     position: absolute;
     height: 100%;

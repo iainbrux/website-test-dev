@@ -1,3 +1,8 @@
+@font-face {
+    src: url(/Inter-Medium.c48570a4.ttf);
+    font-family: Inter;
+}
+
 html,
 body {
     padding: 0;
@@ -30,6 +35,11 @@ body {
 
     .box {
         margin: 10px;
+    }
+
+    .main-container .bio {
+        padding: 20px;
+        max-width: 330px;
     }
 }
 
@@ -120,6 +130,10 @@ a {
     text-decoration: none;
 }
 
+a:link {
+    color: grey;
+}
+
 a:visited {
     color: grey;
 }
@@ -158,14 +172,25 @@ main {
     color: rgb(177, 177, 177);
 }
 
-.main-container {
-    padding: 200px 0;
+.wrapper h1 {
+    font-size: 35px;
+    text-align: center;
 }
 
-.main-container .home {
+.main-container {
+    padding-top: 20px;
+}
+
+.main-container .heading {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.main-container .bio {
     display: flex;
-    align-items: center;
     justify-content: center;
+    width: 430px;
 }
 
 .box {
@@ -232,6 +257,10 @@ main {
     text-align: center;
 }
 
+.lists {
+    display: flex;
+}
+
 .main-container {
     position: absolute;
     height: 100%;
@@ -255,6 +284,33 @@ section.portfolio .portfolio-container .box {
 
 section.portfolio .portfolio-container .box img {
     max-width: 100%;
+}
+
+.info {
+    padding: 20px;
+}
+
+.links {
+    width: 200px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.links img {
+    height: 25px;
+    margin-right: 20px;
+}
+
+.social a,
+.social a:visited {
+    display: flex;
+    align-items: center;
+    color: lightgrey;
 }
 
 
